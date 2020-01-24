@@ -5,7 +5,7 @@
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
 
-bash 'Install Java Open JDK 1.8' do
+bash 'Installing Nginx' do
     user 'root'
     cwd '/tmp'
     code <<-EOH
